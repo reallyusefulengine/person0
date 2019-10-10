@@ -1,0 +1,55 @@
+{
+  "name": "person0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reallyusefulengine/person0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reallyusefulengine/person0/issues"
+  },
+  "homepage": "https://github.com/reallyusefulengine/person0#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^3.4.1",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "mocha": "^6.2.1"
+  },
+  "eslintConfig": {
+    "env": {
+      "mocha": true
+    },
+    "extends": ["airbnb-base"],
+    "rules": {
+      "no-console": 1,
+      "prefer-arrow-callback": 0,
+      "func-names": 0,
+      "no-await-in-loop": 2,
+      "block-scoped-var": "error",
+      "default-case": 2,
+      "no-magic-numbers": 2,
+      "no-return-await": 2,
+      "no-self-compare": 2,
+      "require-await": 2,
+      "no-use-before-define": 2,
+      "camelcase": 2,
+      "vars-on-top": 0,
+      "no-unused-expressions": 0
+    }
+  }
+}
