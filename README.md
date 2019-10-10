@@ -1,4 +1,4 @@
-# person0
+# Patient0
 navigate to the project folder:
   cd person0/person0
 
